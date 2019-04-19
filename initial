@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{
+	
+	int i,j,process_t[10],waiting_t[10],totwt=0,pr[10],temp1,n;
+	float avgwt;
+	char p[10][5],temp[5];
+	printf("enter the input  number of processes:");
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+	{
+		printf("take  the process %d name:",i+1);
+  		scanf("%s",&p[i]);
+		printf("take  the process time:");
+		scanf("%d",&process_t[i]);
+		printf("take the priority:");
+		scanf("%d",&pr[i]);
+	}
